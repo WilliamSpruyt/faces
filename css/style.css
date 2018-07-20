@@ -1,0 +1,68 @@
+#back {}
+
+.timeReadOut {
+  font-family: "Permanent Marker", cursive;
+  font-size: 15vh;
+  color: black;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 3%;
+}
+
+#play {
+  font-family: "Permanent Marker", cursive;
+  font-size: 100%;
+  color: red;
+  border-radius: 15%;
+  float: left;
+}
+
+#chooser {
+  font-family: "Permanent Marker", cursive;
+  font-size: 100%;
+  color: green;
+  float: left;
+}
+
+#chooserLabel {
+  font-family: "Permanent Marker", cursive;
+  font-size: 100%;
+  color: black;
+  margin-left: 3%;
+  float: left;
+}
+
+.center-wrapper {
+  margin: 15%;
+}
+
+.center-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+button:focus {
+  outline: 0;
+}
+
+#wallpaper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: blue;
+}
+
+#panel {
+  position: absolute;
+  top: 2%;
+  left: 0%;
+  width: 100%;
+}
+
+svg {
+  border-width: 0px;
+  display: block;
+  float: left;
+}
